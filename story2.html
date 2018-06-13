@@ -75,16 +75,20 @@
   <body>
     <!-- Cover page -->
     <amp-story standalone bookend-config-src="bookend.json">
-      
       <amp-story-page id="cover">
-        <amp-story-grid-layer template="fill">
-          <amp-img src="assets/rose_bkgd.png"
-              width="720" height="1280"
-              layout="responsive">
-          </amp-img>
+       <amp-story-grid-layer template="fill">
+          <amp-video autoplay loop
+                width="720" height="1280"
+                poster="assets/rose_bkgd.png"
+                layout="responsive">
+              <source src="assets/digitalMarketing-animation.mp4" type="video/mp4">
+          </amp-video>
         </amp-story-grid-layer>
-        <amp-story-grid-layer template="thirds">
-          <h1 class="lower-third">We’re a group of fresh-eyed designers and word-whizzes, working for you.</h1>
+      
+      
+        <amp-story-grid-layer template="vertical" class="bottom">
+          <h1 class="lower-third">US Creative Team</h1>
+          <p>We’re a group of fresh-eyed designers and word-whizzes, working for you.</p>
         </amp-story-grid-layer>
       </amp-story-page>
 
@@ -141,7 +145,7 @@
                 width="720" height="1280"
                 poster="assets/rose_bkgd.png"
                 layout="responsive">
-              <source src="assets/rabbit.mp4" type="video/mp4">
+              <source src="assets/digitalMarketing-animation.mp4" type="video/mp4">
           </amp-video>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="thirds">
