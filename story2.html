@@ -18,7 +18,7 @@
         color: #fff;
       }
       amp-story-page {
-        background-color: #E16176;
+        background-color: #A32020;
       }
       #page2 {
         background-color: #A32020;
@@ -79,13 +79,17 @@
       }
       .whiteBox {
         width: 90%;
+        margin-right: auto;
+        margin-left: auto;
         padding:10px;
         background-color:#fff;
+        text-align:center;
       }
     </style>
   </head>
   <body>
-    <!-- Cover page -->
+    
+    <!---------- Cover page --------->
     <amp-story standalone bookend-config-src="bookend.json">
       <amp-story-page id="cover">
        <amp-story-grid-layer template="fill">
@@ -108,7 +112,7 @@
       </amp-story-page>
       
 
-      <!-- Slide 2 : 1 layer (vertical) -->
+      <!---------------- Page 1 (Slide 2)  ------------------>
       <amp-story-page id="page1">
         
         <amp-story-grid-layer template="fill">
@@ -124,7 +128,7 @@
       </amp-story-page>
       
       
-       <!----------------- Slide 3 :  ------------------>
+       <!----------------- Page 2 (Slide 3) :  ------------------>
       <amp-story-page id="page2">
         <amp-story-grid-layer template="vertical" class="bottom">
           <div class="whiteBox">
@@ -142,7 +146,7 @@
       </amp-story-page> 
       
 
-      <!-- Slide 4 : 2 layers (thirds) -->
+      <!----------------- Page 3 (Slide 4) -------------->
       <amp-story-page id="page3">
        
           <amp-story-grid-layer template="thirds">
@@ -158,7 +162,7 @@
      
    
       
-      <!-- Slide 5 : 3 layers (fill (video) + vertical + vertical) -->
+      <!--------------- Page 4 (Slide 5) --------------->
       <amp-story-page id="page4">
         <amp-story-grid-layer template="fill">
           <amp-video autoplay loop
@@ -174,8 +178,10 @@
           <h3 class="lower-third" animate-in="whoosh-in-right" animate-in-delay="3.1s">And convey your client’s vision effectively. </h3>
         </amp-story-grid-layer>
       </amp-story-page>
+      
+      
 
-      <!-- Slide 6 (Collage): 2 layers + animations -->
+      <!------------- Page 5 (Slide 6) ----------------->
       <amp-story-page id="page5">
         
         <amp-story-grid-layer template="vertical" class="center-text">
