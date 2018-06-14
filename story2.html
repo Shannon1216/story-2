@@ -11,6 +11,7 @@
         src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
     <script async custom-element="amp-story"
         src="https://cdn.ampproject.org/v0/amp-story-0.1.js"></script>
+    <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
    
     <style amp-custom>
       amp-story {
@@ -155,6 +156,22 @@
       
        <!----------------- Page 2 (Slide 3) :  ------------------>
       <amp-story-page id="page2">
+        <amp-story-grid-layer template="vertical" class="bottom">
+        <amp-carousel width="450"
+  height="300">
+  <amp-img src="assets/slide1-greyBkgd.png"
+    width="450"
+    height="300"></amp-img>
+  <amp-img src="assets/cover_fallback.jpg"
+    width="450"
+    height="300"></amp-img>
+  <amp-img src="assets/logo_placeholder.png"
+    width="450"
+    height="300"></amp-img>
+</amp-carousel>
+         </amp-story-grid-layer>
+        
+        
         <amp-story-grid-layer template="vertical" class="bottom">
           <div class="whiteBox">
           <p>Using every tool in our arsenal, we build excitement. 
