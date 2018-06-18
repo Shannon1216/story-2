@@ -53,14 +53,29 @@
       #page2 {
         background-color: #ffffff;
       }
+      #page2 .top-right {
+        align-content: start;
+        justify-items:right;
+        padding:30px 8px;
+      }
+        #page2 .middle-right {
+          align-content: center;
+          justify-items:right;
+          padding-bottom:50px;
+      }
+         #page2 .bottom-right {
+          align-content: end;
+          justify-items: right;
+          padding: 80px 8px;
+      }
       
-      #page2 p {
+      #page2 content {
         color:#404041;
         text-align:center;
         margin-top:20%!important;
-        width:55%;
         line-height:1.1;
         font-size:1.1em;
+        grid-gap:0;
       }
        
        #page3 {
@@ -239,10 +254,10 @@
           </amp-story-grid-layer>
         
        
-          <amp-story-grid-layer template="thirds">
-            <p grid-area="upper-third">In turn, our work wins you work.</p>
-            <p grid-area="middle-third" style="background:#7C7D7F;"><span style="color:#ffffff;">Helps establish authority.</span></p>
-            <p grid-area="lower-third">Builds trust and loyalty.
+          <amp-story-grid-layer template="vertical">
+            <p grid-area class="content top-right">In turn, our work wins you work.</p>
+            <p grid-area class="content middle-right" style="background:#7C7D7F;"><span style="color:#ffffff;">Helps establish authority.</span></p>
+            <p grid-area class="content bottom-right">Builds trust and loyalty.
             <br>
             <span style="color:#a32020;">And conveys your client’s message effectively.</span></p>
         </amp-story-grid-layer>
