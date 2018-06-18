@@ -69,7 +69,7 @@
           padding: 10px 10px 50px;
       }
       
-      #page2 .content {
+      #page2 .content, #page5 .content {
         color:#404041;
         text-align:center;
         margin-top:22%!important;
@@ -77,7 +77,7 @@
         grid-gap:0;
         
       }
-      #page2 .content_text {
+      #page2 .content_text, #page5 .content_text {
         width:151px;
         color:#404041;
         font-size:1.2em;
@@ -90,6 +90,21 @@
       } 
        #page4 {
         background-color: #A32020;
+      }
+       #page5 .top-left {
+        align-content: start;
+        justify-items:left;
+        padding:0px 10px 8px;
+      }
+       #page5 .middle-left {
+          align-content: center;
+          justify-items:left;
+          padding:10px 10px 80px;
+      }
+       #page5 .bottom-left {
+          align-content: end;
+          justify-items: left;
+          padding: 10px 10px 50px;
       }
      
       amp-story-grid-layer.bottom {
@@ -245,7 +260,7 @@
       </amp-story-page>
       
       
-            <!----------------- Page 2 (Slide 3) -------------->
+      <!----------------- Page 2 (Slide 3) -------------->
       <amp-story-page id="page2">
         
         
@@ -372,9 +387,56 @@ transforms how we talk about complex tools and topics.</h3>
       </amp-story-page> 
       
       
-
-      <!------------- Page 5 (Slide 6) ----------------->
+      
+       <!----------------- Page 5 (Slide 6) -------------->
       <amp-story-page id="page5">
+        
+        
+        <amp-story-grid-layer template="fill">
+          <amp-img
+              animate-in="fly-in-right" animate-in-delay="1.0s" src="assets/page2-top-oval.png"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+          </amp-story-grid-layer>
+        
+        <amp-story-grid-layer template="fill">
+          <amp-img
+              animate-in="fly-in-right" animate-in-delay="1.7s" src="assets/page2-mid-oval.png"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+          </amp-story-grid-layer>
+        
+                <amp-story-grid-layer template="fill">
+          <amp-img
+              animate-in="fly-in-right" animate-in-delay="2.4s" src="assets/page2-bot-oval.png"
+              width="720" height="1280"
+              layout="responsive">
+          </amp-img>
+          </amp-story-grid-layer>
+        
+       
+          <amp-story-grid-layer template="vertical" class="content top-left">
+            <div class="content_text">Whether you need a compelling infograph</div>
+          </amp-story-grid-layer>
+        
+         <amp-story-grid-layer template="vertical" class="content middle-left"> 
+            <div class="content_text">shareable deck</div>
+         </amp-story-grid-layer>
+        
+         <amp-story-grid-layer template="vertical" class="content bottom-left">   
+            <div class="content_text">or polished presentation design
+            <br>
+            <span style="color:#a32020;">we  make it happen.</span></div>
+        </amp-story-grid-layer>
+        
+      </amp-story-page>
+      
+      
+
+      <!------------- Page 6 (Slide 7) ----------------->
+      <amp-story-page id="page6">
         
         <amp-story-grid-layer template="fill">
            <amp-img src="assets/vid-bkgd.jpg"
