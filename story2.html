@@ -82,17 +82,16 @@
         color:#404041;
         font-size:1.2em;
       }
-       
-       #page3 {
-        background-color: #A32020;
-      }
-     
-      #page4 h3 {
+      #page3 h3 {
         margin-top:20px!important;
         width:220px;
         font-size: 2em;
         text-align:center;
+      } 
+       #page4 {
+        background-color: #A32020;
       }
+     
       amp-story-grid-layer.bottom {
         align-content:end;
       }
@@ -185,7 +184,7 @@
           top: -4%;
           font-size: 1.5em;
         }
-        #page4 h3 {
+        #page3 h3 {
          margin-top:20px!important;
          width:400px;
          font-size: 2.9em;
@@ -292,8 +291,46 @@
       </amp-story-page>
       
       
-       <!----------------- Page 3 (Slide 4) :  ------------------>
+     
+      
+
+   
+      
+      <!--------------- Page 3 (Slide 4) --------------->
       <amp-story-page id="page3">
+        <amp-story-grid-layer template="fill">
+           <amp-img src="assets/page4_top.jpg"
+              width="720" height="1098">
+          </amp-img>
+        </amp-story-grid-layer>
+        
+        
+        <amp-story-grid-layer template="fill">
+           <amp-img src="assets/page4_bottom.png"
+              width="720" height="1098">
+          </amp-img>
+        </amp-story-grid-layer>
+        
+        <amp-story-grid-layer template="vertical"> 
+        <h3 animate-in="fly-in-top" animate-in-delay="0.3s">This next-level storytelling
+transforms how we talk about complex tools and topics.</h3>
+          </amp-story-grid-layer>
+          
+        <amp-story-grid-layer template="fill">          
+          <amp-img
+              animate-in="fly-in-bottom" animate-in-delay="1.7s" src="assets/page4_bottom-oval.png"
+              width="720" 
+              height="1280"
+              layout="responsive"> 
+          </amp-img>
+
+        </amp-story-grid-layer>
+        
+      </amp-story-page>
+      
+      
+        <!----------------- Page 4 (Slide 5) :  ------------------>
+      <amp-story-page id="page4">
         
         <amp-story-grid-layer template="vertical">
           
@@ -333,41 +370,6 @@
         
        
       </amp-story-page> 
-      
-
-   
-      
-      <!--------------- Page 4 (Slide 5) --------------->
-      <amp-story-page id="page4">
-        <amp-story-grid-layer template="fill">
-           <amp-img src="assets/page4_top.jpg"
-              width="720" height="1098">
-          </amp-img>
-        </amp-story-grid-layer>
-        
-        
-        <amp-story-grid-layer template="fill">
-           <amp-img src="assets/page4_bottom.png"
-              width="720" height="1098">
-          </amp-img>
-        </amp-story-grid-layer>
-        
-        <amp-story-grid-layer template="vertical"> 
-        <h3 animate-in="fly-in-top" animate-in-delay="0.3s">This next-level storytelling
-transforms how we talk about complex tools and topics.</h3>
-          </amp-story-grid-layer>
-          
-        <amp-story-grid-layer template="fill">          
-          <amp-img
-              animate-in="fly-in-bottom" animate-in-delay="1.7s" src="assets/page4_bottom-oval.png"
-              width="720" 
-              height="1280"
-              layout="responsive"> 
-          </amp-img>
-
-        </amp-story-grid-layer>
-        
-      </amp-story-page>
       
       
 
