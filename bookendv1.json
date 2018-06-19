@@ -14,20 +14,20 @@
       "type": "small",
       "title": "Learn about cats",
       "url": "https://wikipedia.org/wiki/Cat",
-      "image": "assets/bookend_cats.jpg"
+      "image": "assets/related-1.png"
     },
     {
       "type": "landscape",
       "title": "Learn about border collies",
       "url": "https://wikipedia.org/wiki/Border_Collie",
-      "image": "assets/bookend_dogs.jpg",
+      "image": "assets/related-2.png",
       "category": "Dogs"
     },
     {
       "type": "portrait",
       "title": "Learn about macaws",
       "url": "https://wikipedia.org/wiki/Macaw",
-      "image": "assets/bookend_birds.jpg",
+      "image": "assets/related-1.png",
       "category": "birds"
     },
     {
