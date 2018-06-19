@@ -1,19 +1,9 @@
 {
-  // You must specify version v1.0.
   "bookend-version": "v1.0",
   "share-providers": [
-    "email",
-    "tumblr",
-    {
-      "provider": "twitter",
-      // You can add custom sharing parameters depending on the social platform.
-      "text": "This is custom share text that I would like for the Twitter platform"
-    },
-    {
-      "provider": "facebook",
-      // Facebook requires an `app_id` param
-      "app_id": "MY_FACEBOOK_APP_ID"
-    }
+    "facebook",
+    "twitter",
+    "email"
   ],
   "components": [
     {
@@ -22,10 +12,32 @@
     },
     {
       "type": "small",
-      "title": "This is India an the best places you should go",
-      "url": "http://example.com/article.html",
-      "image": "http://placehold.it/256x128"
+      "title": "Learn about cats",
+      "url": "https://wikipedia.org/wiki/Cat",
+      "image": "assets/bookend_cats.jpg"
     },
-    ...
+    {
+      "type": "landscape",
+      "title": "Learn about border collies",
+      "url": "https://wikipedia.org/wiki/Border_Collie",
+      "image": "assets/bookend_dogs.jpg",
+      "category": "Dogs"
+    },
+    {
+      "type": "portrait",
+      "title": "Learn about macaws",
+      "url": "https://wikipedia.org/wiki/Macaw",
+      "image": "assets/bookend_birds.jpg",
+      "category": "birds"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "Learn more",
+          "url": "https://www.ampproject.org/stories/"
+        }
+      ]
+    }
   ]
 }
