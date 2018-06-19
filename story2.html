@@ -215,7 +215,8 @@
   <body>
     
     <!---------- Cover page --------->
-    <amp-story standalone bookend-config-src="bookend.json">
+    <amp-story standalone>
+   
       <amp-story-page id="cover">
        <amp-story-grid-layer template="fill">
           <amp-video autoplay loop
@@ -492,6 +493,9 @@
        
         
       </amp-story-page>
+      
+      <!--- Bookend  --->
+       <amp-story bookend src="bookend.json" layout="nodisplay"></amp-story-bookend>
 
     </amp-story>
   </body>
