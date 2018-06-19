@@ -1,13 +1,10 @@
 {
   "bookend-version": "v1.0",
   "share-providers": [
-
-{
-  "share-providers": {
     "facebook": true,
     "twitter": true,
-    "email": true
-  },
+    "email": true,
+    {
   "related-articles": {
     "Delve deeper. See what we do – and why – firsthand": [
       {
