@@ -1,4 +1,8 @@
 {
+  "bookend-version": "v1.0",
+  "share-providers": [
+
+{
   "share-providers": {
     "facebook": true,
     "twitter": true,
@@ -18,4 +22,6 @@
       }
     ]
   }
+}
+    ]
 }
