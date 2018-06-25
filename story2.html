@@ -250,9 +250,17 @@
       <amp-story-page id="page1">
         
         <amp-story-grid-layer template="fill">
-          <amp-img src="assets/page1-bkgd.jpg"
-              width="720" height="1280">
+          <div animate-in="zoom-in"
+               animate-in-duration="30s"
+               class="img-container">
+          <amp-img src="assets/events_1600x1280.jpg"
+                   animate-in="pan-left"
+                   animate-in-duration="30s"
+                   layout="fixed"
+                   width="1600" 
+                   height="1280">
           </amp-img>
+          </div>
           </amp-story-grid-layer>
         
         <amp-story-grid-layer template="fill">
